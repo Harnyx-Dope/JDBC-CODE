@@ -42,9 +42,9 @@ public class Exe
                 val2 = neer.group();
                 ctr++;
             }
-            if( val1.equals("") || val2.equals("") || ctr<2)
+            if( val1==null || val2==null || ctr<2)
             {
-                throw new Exception("MY CUSTOM ONE IN PHONE NUMBER");
+                throw new Exception("MY CUSTOM Exception ");
             }
             else
             {
