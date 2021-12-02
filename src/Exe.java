@@ -62,6 +62,7 @@ public class Exe
             System.out.println(e);
 
         }
+        con.close();
 
 
 
